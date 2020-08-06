@@ -1,5 +1,5 @@
 # My blog
-Thought it would be fun to make/learn to use a cms.
+Thought it would be fun to make/learn to use a sass.
 
 # TODO
 * Find a theme and migrate
