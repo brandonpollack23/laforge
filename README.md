@@ -2,9 +2,11 @@
 Thought it would be fun to make/learn to use a sass.
 
 # TODO BLOG
-* Add Jekyll and Jekyll-Now credit links to footer.
+* Multi lingual and translate existing content.
 * Disqus
-* Multi lingual
+* Paginate posts in index.html
+* First post.
+* [Post serieses](https://digitaldrummerj.me/blogging-on-github-part-13-creating-an-article-series/)
 
 # TODO App/Self Host
 * docker-compose.yml to deploy using jekyll docker and nginx
