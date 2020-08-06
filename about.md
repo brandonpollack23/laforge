@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello everyone.<br/>
+My name's Brandon Pollack, somehow you've reached my blog, hope I don't mislead you!
 
-### More Information
+### What I write about
 
-A place to include any other types of information that you'd like to include about yourself.
+Software engineering mostly I think, perhaps some other topics.<br/>
+I often get myself caught up in wondering how something works, lose sleep figuring it out, all to forget it later.  Figured if I write it down others can use it and I can reference it :).
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[brandonpollack23@gmail.com](mailto:brandonpollack23@gmail.com)
