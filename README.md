@@ -2,11 +2,10 @@
 Thought it would be fun to make/learn to use a sass.
 
 # TODO BLOG
-* Default.html: footer add "other language line" and make this from i18n
-* Disqus
 * Post tags
 * First post.
 * [Post serieses](https://digitaldrummerj.me/blogging-on-github-part-13-creating-an-article-series/)
+* Add small medium and large font size selection for japanese (cookie)
 * Toys section
 * Make better style on language selector.
 * use some means of page come from (cookie?) for 404

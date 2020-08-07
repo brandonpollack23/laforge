@@ -14,6 +14,12 @@ navigation:
 titles:
   about: About
 
+footer:
+  credits: This site was made possible by use of <a href="https://jekyllrb.com/">Jekyll</a> and the <a href="https://github.com/barryclark/jekyll-now">Jekyll-Now theme</a>
+
+disqus:
+  enable_js: Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+
 index:
   welcome: Welcome to Laforge!
   welcome_detail: <p>A place for me to dump my musings I suppose.</p><p>Laforge is a reference to Lt. Geordi Laforge from Star Trek TNG.</p>

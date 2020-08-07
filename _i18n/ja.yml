@@ -14,6 +14,12 @@ navigation:
 titles:
   about: このページについて
 
+footer:
+  credits: このサイトは「<a href="https://jekyllrb.com/">Jekyll</a>」と「<a href="https://github.com/barryclark/jekyll-now">Jekyll-Now theme</a>」の提供で作成されました
+
+disqus:
+  enable_js: <a href="http://disqus.com/?ref_noscript">Disqus</a>に提供されたコメントをご覧にはJavaScriptをお有効ください。
+
 index:
   welcome: Laforgeへようこそ！
   welcome_detail: <p>僕が考えたことを投稿する場所としようとおもっています</p><p>「Laforge」というのはスタートレックのLt. Geordi Laforge.</p>

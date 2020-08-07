@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: brandonpollack23/brandonpollack23.github.io
   instagram:
-  linkedin:
+  linkedin: brandon-pollack-58b61542
   pinterest:
   rss: brandonpollack-rss # just type anything here for a working RSS icon
   twitter: 
@@ -34,7 +34,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: laforge
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-174839648-1
