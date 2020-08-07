@@ -11,6 +11,9 @@ navigation:
 - name: このページについて
   link: /ja/about.html
 
+titles:
+  about: このページについて
+
 index:
   welcome: Laforgeへようこそ！
   welcome_detail: <p>僕が考えたことを投稿する場所としようとおもっています</p><p>「Laforge」というのはスタートレックのLt. Geordi Laforge.</p>

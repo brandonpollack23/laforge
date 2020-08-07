@@ -11,6 +11,9 @@ navigation:
   - name: About
     link: /about.html
 
+titles:
+  about: About
+
 index:
   welcome: Welcome to Laforge!
   welcome_detail: <p>A place for me to dump my musings I suppose.</p><p>Laforge is a reference to Lt. Geordi Laforge from Star Trek TNG.</p>

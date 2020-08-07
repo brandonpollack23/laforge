@@ -1,4 +1,5 @@
 .DS_Store
+.gems
 .jekyll
 .jekyll-cache
 .jekyll-metadata
