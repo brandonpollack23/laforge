@@ -1,0 +1,6 @@
+- name: トップ
+  link: /index.html
+- name: ブロッグ
+  link: /index.html
+- name: このページについて
+  link: /about.html

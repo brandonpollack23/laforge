@@ -28,11 +28,10 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <!-- TODO MAKE RIGHT JUSTIFIED And Style-->
           {% include language_selector.html %}
 
           <nav>
-            {% for item in site.data.navigation %}
+            {% for item in site.translations[site.lang].navigation %}
               <a href="{{ item.link }}">{{ item.name }}</a>
             {% endfor %}
           </nav>

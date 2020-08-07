@@ -3,6 +3,14 @@ global:
   english: 英語
   japanese: 日本語
 
+navigation:
+- name: トップ
+  link: /ja/index.html
+- name: ブロッグ
+  link: /ja/index.html
+- name: このページについて
+  link: /ja/about.html
+
 index:
   welcome: Laforgeへようこそ！
   welcome_detail: <p>僕が考えたことを投稿する場所としようとおもっています</p><p>「Laforge」というのはスタートレックのLt. Geordi Laforge.</p>

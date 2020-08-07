@@ -2,11 +2,12 @@
 Thought it would be fun to make/learn to use a sass.
 
 # TODO BLOG
-* Multi lingual and translate existing content.
 * Disqus
-* Paginate posts in index.html
 * First post.
 * [Post serieses](https://digitaldrummerj.me/blogging-on-github-part-13-creating-an-article-series/)
+* Make better style on language selector.
+* use some means of page come from (cookie?) for 404
+* Paginate posts in index.html
 
 # TODO App/Self Host
 * docker-compose.yml to deploy using jekyll docker and nginx
