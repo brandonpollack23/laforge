@@ -116,7 +116,9 @@ img {
 }
 
 .date {
+  {% if site.lang != "ja" %}
   font-style: italic;
+  {% endif %}
   color: $gray;
 }
 
