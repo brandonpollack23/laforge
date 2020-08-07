@@ -2,6 +2,7 @@
 Thought it would be fun to make/learn to use a sass.
 
 # TODO BLOG
+* Default.html: footer add "other language line" and make this from i18n
 * Disqus
 * First post.
 * [Post serieses](https://digitaldrummerj.me/blogging-on-github-part-13-creating-an-article-series/)
