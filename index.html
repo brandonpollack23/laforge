@@ -2,12 +2,12 @@
 layout: default
 ---
 <div>
-  <h1>Welcome To Laforge!</h1>
-  <p>A place for me to dump my musings I suppose.</p><p>Laforge is a reference to Lt. Geordi Laforge from Star Trek TNG.</p>
+  <h1>{% t index.welcome %}</h1>
+  {% t index.welcome_detail %}
 </div>
 
 <div class="posts">
-  <h1>Posts</h1>
+  <h1>{% t index.posts %}</h1>
   {% for post in site.posts %}
     <article class="post">
 

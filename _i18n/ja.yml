@@ -1,0 +1,10 @@
+global:
+  language_select: 言語
+  english: 英語
+  japanese: 日本語
+
+index:
+  welcome: Laforgeへようこそ！
+  welcome_detail: <p>僕が考えたことを投稿する場所としようとおもっています</p><p>「Laforge」というのはスタートレックのLt. Geordi Laforge.</p>
+  read_more: もっと見る
+  posts: ポスト

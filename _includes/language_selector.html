@@ -1,0 +1,16 @@
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    selector = document.querySelector('#language_selector');
+    if ("{{ site.lang }}" === "en") {
+      console.log("Page loaded in english");
+      selector.selectedIndex = 0;
+    } else if ("{{site.lang}}" === "ja") {
+      console.log("ページを日本語で読み込みました");
+      selector.selectedIndex = 1;
+    }
+  });
+</script>
+<select onchange="location = this.options[this.selectedIndex].value;" name="language" id="language_selector">
+  <option value="{{site.baseurl_root}}{{page.url}}">English</option>
+  <option value="{{site.baseurl_root}}/ja{{page.url}}">日本語</option>
+</select>

@@ -82,6 +82,13 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# jekyll-multiple-languages-plugin configuration
+languages: ["en", "ja"]
+exclde_from_localizations: ["javascript", "images", "css"]
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
