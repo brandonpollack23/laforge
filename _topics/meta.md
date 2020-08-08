@@ -1,4 +1,4 @@
 ---
-short_name: meta
+tag_name: meta
 ---
-Articles about myself or this site in general.
+{% t topics.meta.blurb %}

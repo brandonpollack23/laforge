@@ -1,6 +1,6 @@
 ---
 title: 最初のポスト
-category: meta
+topic: meta
 ---
 
 これはこのサイトの初めてのポストです。ツアーとして書きます。

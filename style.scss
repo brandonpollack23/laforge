@@ -288,6 +288,21 @@ nav {
   text-align: center;
 }
 
+.headline {
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+}
+
+.link {
+  text-decoration: underline;
+  color: rgb(0, 5, 49);
+}
+
+.inline {
+  display: inline-block;
+}
+
 #language_selector {
   font-size: medium;
   padding: 5px;
