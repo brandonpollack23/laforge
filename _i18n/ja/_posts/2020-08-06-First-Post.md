@@ -1,7 +1,6 @@
 ---
-layout: post
 title: 最初のポスト
-tag: meta
+category: meta
 ---
 
 これはこのサイトの初めてのポストです。ツアーとして書きます。

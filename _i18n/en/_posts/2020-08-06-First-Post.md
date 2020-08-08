@@ -1,7 +1,6 @@
 ---
-layout: post
 title: First Post!
-tag: meta
+topic: meta
 ---
 
 This is my first post on the blog.  It should serve as a little tour.

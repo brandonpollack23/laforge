@@ -13,6 +13,7 @@ navigation:
 
 titles:
   about: このページについて
+  topics: 話題
 
 footer:
   credits: このサイトは「<a href="https://jekyllrb.com/">Jekyll</a>」と「<a href="https://github.com/barryclark/jekyll-now">Jekyll-Now theme</a>」の提供で作成されました

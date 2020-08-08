@@ -8,11 +8,14 @@ navigation:
     link: /index.html
   - name: Blog
     link: /index.html
+  - name: Topics
+    link: /topics.html
   - name: About
     link: /about.html
 
 titles:
   about: About
+  topics: Topics
 
 footer:
   credits: This site was made possible by use of <a href="https://jekyllrb.com/">Jekyll</a> and the <a href="https://github.com/barryclark/jekyll-now">Jekyll-Now theme</a>
@@ -25,3 +28,8 @@ index:
   welcome_detail: <p>A place for me to dump my musings I suppose.</p><p>Laforge is a reference to Lt. Geordi Laforge from Star Trek TNG.</p>
   read_more: Read More
   posts: Posts
+
+topics:
+  meta: 
+    title: Meta Posts
+    blurb: Posts about this site or about me in general.

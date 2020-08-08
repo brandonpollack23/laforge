@@ -1,0 +1,14 @@
+---
+layout: default
+permalink: /topics.html
+title: titles.topics
+---
+<!-- TODO TITLE in front matter, handle translations -->
+<div class="posts">
+  {% for topic in site.topics %}
+    {% capture topic_strings %}topics.{{topic.short_name}}{% endcapture %}
+    <h1><a href="{{ topic.url }}">{% t {{topic_strings}}.title %}</a></h1>
+    <p>{{ topic.content | markdownify }}</p>
+    <!-- TODO 5 article snipit list indented. -->
+  {% endfor %}
+</div>
