@@ -4,13 +4,13 @@ Thought it would be fun to make/learn to use a sass.
 
 # TODO BLOG
 
-* Post tags
+* Actual technical post
 * [Post serieses](https://digitaldrummerj.me/blogging-on-github-part-13-creating-an-article-series/)
 * Add small medium and large font size selection for japanese (cookie)
 * Toys section
 * Make better style on language selector.
 * use some means of page come from (cookie?) for 404
-* Paginate posts in index.html
+* Paginate posts in index.html and topic.html using [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration)
 
 # TODO App/Self Host
 
