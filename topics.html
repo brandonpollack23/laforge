@@ -3,26 +3,26 @@ layout: default
 permalink: /topics.html
 title: titles.topics
 ---
-<!-- TODO TITLE in front matter, handle translations -->
-
 <h4 class="headline">
-<!-- TODO JAPANESE -->
-  Here are all the categories I've written articles about, with their most recent 5 posts.
-  <br/>
-  <br/>
-  Click the title for a list of all articles.
+  {% t topics_page.header %}
 </h4>
 
 <div class="posts">
   {% for topic in site.topics %}
     {% capture topic_strings %}topics.{{topic.tag_name}}{% endcapture %}
     <h1><a class="link" href="{{ topic.url }}">{% t {{topic_strings}}.title %}</a></h1>
-    <p>{{ topic.content | markdownify }}</p>
+    <p>{% t topics.meta.blurb %}</p>
 
     <ul>
-      {% for post in site.posts | reverse | where "topic", {{topic.tag_name}} limit: 5 %}
+      {% assign posts_filtered = site.posts | reverse | where: "topic", topic.tag_name %}
+      {% for post in posts_filtered limit: 5 %}
         <li>
-          <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a> -- <span class="inline">{{ post.excerpt }}</span>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <span class="inline">
+            <span style="font-style: italic;">{% include date.html date=post.date %}</span>
+            --
+            <span class="inline" style="font-size: medium;">{{ post.excerpt }}</span>
+          </span>
         </li>
       {% endfor %}
     </ul>

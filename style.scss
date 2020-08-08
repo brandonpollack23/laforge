@@ -116,9 +116,7 @@ img {
 }
 
 .date {
-  {% if site.lang != "ja" %}
   font-style: italic;
-  {% endif %}
   color: $gray;
 }
 
@@ -300,7 +298,11 @@ nav {
 }
 
 .inline {
-  display: inline-block;
+  display: inline;
+}
+
+.inline > p, span {
+  display: inline;
 }
 
 #language_selector {

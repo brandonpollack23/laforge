@@ -8,6 +8,8 @@ navigation:
   link: /ja/index.html
 - name: ブロッグ
   link: /ja/index.html
+- name: 話題
+  link: /ja/topics.html
 - name: このページについて
   link: /ja/about.html
 
@@ -21,8 +23,16 @@ footer:
 disqus:
   enable_js: <a href="http://disqus.com/?ref_noscript">Disqus</a>に提供されたコメントをご覧にはJavaScriptをお有効ください。
 
+topics_page:
+  header: ここには私が書いた記事の種類ば全て集まっていて、最も最近の5つのポストの情報も含まれている。 <br/> <br/> タイトルをクリックすると「もっと見る」のページに移動する。
+
 index:
   welcome: Laforgeへようこそ！
   welcome_detail: <p>僕が考えたことを投稿する場所としようとおもっています</p><p>「Laforge」というのはスタートレックのLt. Geordi Laforge.</p>
   read_more: もっと見る
   posts: ポスト
+
+topics:
+  meta: 
+    title: メタのポスト
+    blurb: 私かこのサイトに関するポスト。

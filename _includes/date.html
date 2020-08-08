@@ -1,0 +1,7 @@
+<div class="inline">
+  {%if site.lang == "en" %}
+  {{ include.date | date: "%B %e, %Y" }}
+  {%elsif site.lang == "ja" %}
+  {{ include.date | date: "%Y年%m月%d日"}}
+  {% endif %}
+</div>

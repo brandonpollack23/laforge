@@ -29,6 +29,9 @@ index:
   read_more: Read More
   posts: Posts
 
+topics_page:
+  header: Here are all the categories I've written articles about, with their most recent 5 posts. <br/> <br/> Click the title for a list of all articles.
+
 topics:
   meta: 
     title: Meta Posts
