@@ -4,3 +4,17 @@ layout: default
 <h1>{% t page.title %}</h1>
 
 {{ content | markdownify }}
+
+<hr>
+{% assign posts_filtered = site.posts | reverse | where: "topic", page.tag_name %}
+{% for post in posts_filtered %}
+  <article class="post">
+    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
+
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{% t index.read_more %}</a>
+  </article>
+{% endfor %}
